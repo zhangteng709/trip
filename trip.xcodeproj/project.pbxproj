@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E90C75F1F18664D0038D6B2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C75E1F18664D0038D6B2 /* BaseViewController.swift */; };
+		0E90C7611F1891B20038D6B2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C7601F1891B20038D6B2 /* ThirdViewController.swift */; };
+		0E90C7631F1891C00038D6B2 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C7621F1891C00038D6B2 /* FourViewController.swift */; };
+		0E90C7651F1898500038D6B2 /* BaseTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C7641F1898500038D6B2 /* BaseTabbarViewController.swift */; };
+		0E90C7671F1898580038D6B2 /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E90C7661F1898580038D6B2 /* BaseNavViewController.swift */; };
 		B24161481F17CA9C005A0E90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24161471F17CA9C005A0E90 /* AppDelegate.swift */; };
 		B241614A1F17CA9C005A0E90 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24161491F17CA9C005A0E90 /* FirstViewController.swift */; };
 		B241614C1F17CA9C005A0E90 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241614B1F17CA9C005A0E90 /* SecondViewController.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E90C75E1F18664D0038D6B2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0E90C7601F1891B20038D6B2 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		0E90C7621F1891C00038D6B2 /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		0E90C7641F1898500038D6B2 /* BaseTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabbarViewController.swift; sourceTree = "<group>"; };
+		0E90C7661F1898580038D6B2 /* BaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
 		B24161441F17CA9C005A0E90 /* trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24161471F17CA9C005A0E90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B24161491F17CA9C005A0E90 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -100,8 +110,13 @@
 			isa = PBXGroup;
 			children = (
 				B24161471F17CA9C005A0E90 /* AppDelegate.swift */,
+				0E90C75E1F18664D0038D6B2 /* BaseViewController.swift */,
+				0E90C7641F1898500038D6B2 /* BaseTabbarViewController.swift */,
+				0E90C7661F1898580038D6B2 /* BaseNavViewController.swift */,
 				B24161491F17CA9C005A0E90 /* FirstViewController.swift */,
 				B241614B1F17CA9C005A0E90 /* SecondViewController.swift */,
+				0E90C7601F1891B20038D6B2 /* ThirdViewController.swift */,
+				0E90C7621F1891C00038D6B2 /* FourViewController.swift */,
 				B241614D1F17CA9C005A0E90 /* Main.storyboard */,
 				B24161501F17CA9C005A0E90 /* Assets.xcassets */,
 				B24161521F17CA9C005A0E90 /* LaunchScreen.storyboard */,
@@ -266,6 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B241614C1F17CA9C005A0E90 /* SecondViewController.swift in Sources */,
+				0E90C75F1F18664D0038D6B2 /* BaseViewController.swift in Sources */,
+				0E90C7651F1898500038D6B2 /* BaseTabbarViewController.swift in Sources */,
+				0E90C7631F1891C00038D6B2 /* FourViewController.swift in Sources */,
+				0E90C7611F1891B20038D6B2 /* ThirdViewController.swift in Sources */,
+				0E90C7671F1898580038D6B2 /* BaseNavViewController.swift in Sources */,
 				B24161481F17CA9C005A0E90 /* AppDelegate.swift in Sources */,
 				B241614A1F17CA9C005A0E90 /* FirstViewController.swift in Sources */,
 			);

@@ -1,28 +1,33 @@
 //
 //  SecondViewController.swift
-//  trip
+//  CalledSeed
 //
-//  Created by zhangteng709 on 17/7/13.
-//  Copyright © 2017年 zhangteng709. All rights reserved.
+//  Created by  光合种子 on 2016/9/26.
+//  Copyright © 2016年  光合种子. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: BaseViewController {
-
+class BaseTabbarViewController: UITabBarController {
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        self.view.backgroundColor = .brown
 
+        
     }
+    
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 
-
+    
 }
 
