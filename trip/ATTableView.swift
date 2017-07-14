@@ -20,6 +20,7 @@ class ATTableView: UITableView {
         self.showsVerticalScrollIndicator = false
         self.separatorStyle = .none
         
+        self.register(ATQuerycell.self, forCellReuseIdentifier: ATTableView.queryidenfier)
         
     }
     
@@ -49,8 +50,9 @@ extension ATTableView:UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        let cell = tableView.dequeueReusableCell(withIdentifier: ATTableView.queryidenfier, for: indexPath)
         
-        return
+        return cell
     }
     
     
@@ -89,7 +91,11 @@ class ATQuerycell: UITableViewCell {
             
         }
         contentView.addSubview(queryView)
-
+        queryView.snp.makeConstraints { (make) in
+            make.top.left.right.equalToSuperview()
+            make.height.equalTo(contentView.snp.height).multipliedBy(0.3333)
+            
+        }
         
         
     }

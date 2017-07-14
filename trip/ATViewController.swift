@@ -11,6 +11,9 @@ import UIKit
 
 class ATViewController: BaseViewController {
 
+    let tableview = ATTableView.init(frame: UIScreen.main.bounds, style: UITableViewStyle.plain)
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,6 +33,9 @@ class ATViewController: BaseViewController {
             make.centerX.equalTo(view.snp.centerX)
             make.top.equalTo(view.snp.top)
         }
+        
+        
+        view.addSubview(tableview)
 
     }
     
