@@ -14,8 +14,10 @@ class FirstViewController: BaseViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.view.backgroundColor = .white
 
+        let imageview = UIImageView.init(image: #imageLiteral(resourceName: "home_background"))
+        
+        self.view.addSubview(imageview)
         
     }
 

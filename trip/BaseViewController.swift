@@ -14,6 +14,21 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.view.backgroundColor = .white
+
+        
+        if (self.navigationController?.viewControllers.count)! <= 1 {
+            
+            self.navigationController?.navigationBar.isHidden = true
+            
+        }else {
+            
+            self.navigationController?.navigationBar.isHidden = false
+  
+        }
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
