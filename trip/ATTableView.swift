@@ -122,15 +122,21 @@ class QueryView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        let view = Bundle.main.loadNibNamed("QueryView", owner: nil, options: nil)?.first as? UIView
+        
+        if (view != nil) {
+
+            self.addSubview(view!)
+        }
+        
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    lazy var cityview:UIView = {
-        
-    }()
+
     
     
 }
